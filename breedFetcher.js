@@ -15,7 +15,7 @@ const breedFetcher = (breed, cb) => {
 
       let bodyJson = JSON.parse(body);
       if (!bodyJson.length) {
-        cb("Cat breed not found :(", null);
+        cb("Cat breed not found ", null);
         return;
       }
 
